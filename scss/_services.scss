@@ -1,0 +1,151 @@
+.services {
+    background-color: #222222;
+    background-image: url(../img/WhyMe/bacgroundLine.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    .wrapper {
+        @media (max-width: 1280px) {
+            padding: 12.8963em 1em 5.188em 1em;
+        }
+        @media (max-width: 1100px) {
+            padding: 12.8963em 1em 5.188em 1em;
+            font-size: 14px;
+        }
+        @media (max-width: 992px) {
+            padding: 12.8963em 1em 5.188em 1em;
+            font-size: 12px;
+        }
+        @media (max-width: 768px) {
+            padding: 12.25em 1em 4.375em 1em;
+        }
+        @media (max-width: 568px) {
+            padding: 12.25em 1em 3.75em 1em;
+            font-size: 10px;
+        }
+        @media (max-width: 320px) {
+            padding: 12.25em 1em 3.75em 1em;
+        }
+        max-width: 1240px;
+        margin: 0 auto;
+        padding: 12.8963em 1em 5.188em 1em;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .containerServices {
+            h1 {
+                @media (max-width: 992px) {
+                    margin-bottom: 42px;
+                }
+                @media (max-width: 767px) {
+                    width: max-content;
+                }
+                @media (max-width: 568px) {
+                    width: 209px;
+                    margin-bottom: 30px;
+                }
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 800;
+                font-size: 3.125em;
+                margin-bottom: 0.7em;
+                text-transform: uppercase;
+            }
+            h2 {
+                @media (max-width: 992px) {
+                    margin-bottom: 30px;
+                    width: 276px;
+                }
+                @media (max-width: 767px) {
+                    width: 20.77em;
+                }
+                @media (max-width: 568px) {
+                    width: 280px;
+                    margin-bottom: 40px;
+                }
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 1.625em;
+                text-transform: uppercase;
+                width: 20.77em;
+                margin-bottom: 1.69em;
+            }
+            .button {
+                div {
+                    @media (max-width: 1100px) {
+                        padding: 17px 31px;
+                    }
+                    @media (max-width: 992px) {
+                        padding: 15px 25.5px;
+                    }
+                    @media (max-width: 568px) {
+                        padding: 12px 21px;
+                    }
+                    display: inline-block;
+                    padding: 0.75em 1.375em;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 1.5em;
+                    text-transform: uppercase;
+                    background: #ED5F00;
+                    position: relative;
+                    // position: absolute;
+                    // top: 463px;
+                    // left: 334.45px;
+                    z-index: 1;
+                }
+                div:hover {
+                    @media (max-width: 1100px) {
+                        transform: translate(0.27em, 0.29em);
+                    }
+                    display: inline-block;
+                    transform: translate(0.23em, 0.29em);
+                    transition-duration: 0.3s;
+                }
+                span {
+                    @media (max-width: 992px) {
+                        padding: 1em 6.5em 1.5em 5.85em;
+                    }
+                    border: 0.1875em solid #FFFFFF;
+                    padding: 1em 6.5em 1.5em 5.9em;
+                    margin-left: -12.4em;
+                }
+            }
+            .containerText {
+                margin-top: 2.65em;
+                display: flex;
+                img:nth-of-type(1) {
+                    align-self: flex-start;
+                    margin-top: -0.625em;
+                }
+                h3 {
+                    @media (max-width: 568px) {
+                        width: 18em;
+                    }
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 1.25em;
+                    width: 24.15em;
+                }
+                img:nth-of-type(2) {
+                    align-self: flex-end;
+                    margin-bottom: -0.625em;
+                }
+            }
+        }
+        .containerImg {
+            @media (max-width: 992px) {
+                width: 300px;
+            }
+            img {
+                @media (max-width: 767px) {
+                    display: none;
+                }
+                width: 30.875em;
+            }
+        }
+    }
+}

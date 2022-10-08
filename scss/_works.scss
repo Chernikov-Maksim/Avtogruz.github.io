@@ -1,0 +1,114 @@
+.works {
+    background-color: #222222;
+    background-image: url(../img/evacuate/bacgroundLine.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    .wrapper {
+        @media (max-width: 1280px) {
+            padding: 8.25em 1em;
+        }
+        @media (max-width: 1100px) {
+            padding: 8.25em 1em;
+            font-size: 14px;
+        }
+        @media (max-width: 992px) {
+            padding: 8.25em 1em;
+            font-size: 12px;
+        }
+        @media (max-width: 768px) {
+            padding: 6.25em 1em 4.375em 1em;
+            font-size: 10px;
+        }
+        @media (max-width: 568px) {
+            padding: 6.25em 1em 3.75em 1em;
+            font-size: 10px;
+        }
+        @media (max-width: 320px) {
+            padding: 6.25em 1em 3.75em 1em;
+        }
+        max-width: 1240px;
+        margin: 0 auto;
+        padding: 8.25em 0em 8.25em 0em;
+        .worksH2 {
+            h2 {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 800;
+                font-size: 2.375em;
+                text-transform: uppercase;
+                margin-bottom: 2.368em;
+            }
+        }
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+        .swiper-wrapper {
+            margin-bottom: 2.875em;
+        }
+        .swiper-slide {
+            height: 300px;
+        }
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .swiper-slide-one {
+            background-image: url(../img/swiper/IMG_07301.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .swiper-slide-to {
+            background-image: url(../img/swiper/IMG_07301.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .swiper-slide-three {
+            background-image: url(../img/swiper/IMG_07301.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .swiper-slide-four {
+            background-image: url(../img/swiper/IMG_07301.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .swiper-slide-five {
+            background-image: url(../img/swiper/IMG_07301.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .swiper-slide-six {
+            background-image: url(../img/swiper/IMG_07301.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .swiper-slide-seven {
+            background-image: url(../img/swiper/IMG_07301.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .swiper-slide-eight {
+            background-image: url(../img/swiper/IMG_07301.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .swiper-slide-nine {
+            background-image: url(../img/swiper/IMG_07301.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .swiper-scrollbar {
+            background: #FFFFFF;
+            height: 9.91px;
+            border-radius: 0px;
+        }
+        .swiper-scrollbar-drag {
+            background: #ED5F00;
+            border-radius: 0px;
+        }
+    }
+}
